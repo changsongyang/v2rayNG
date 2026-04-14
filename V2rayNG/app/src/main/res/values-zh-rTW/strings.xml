@@ -112,6 +112,7 @@
     <string name="server_lab_bandwidth_up">頻寬上行 (支持的單位 k/m/g/t)</string>
     <string name="server_lab_xhttp_mode">XHTTP 模式</string>
     <string name="server_lab_xhttp_extra">XHTTP Extra 原始 JSON，格式： { XHTTPObject }</string>
+    <string name="server_lab_final_mask">FinalMask 原始 JSON 格式: { FinalMaskObject }</string>
     <string name="server_lab_ech_config_list">EchConfigList</string>
     <string name="server_lab_ech_force_query">EchForceQuery</string>
     <string name="server_lab_pinned_ca256">證書指紋 (SHA-256)</string>
@@ -216,6 +217,10 @@
 
     <string name="title_pref_socks_port">本地代理埠</string>
     <string name="summary_pref_socks_port">本地代理埠</string>
+    <string name="title_pref_socks_username">本地代理使用者名稱 (選擇)</string>
+    <string name="summary_pref_socks_username">使用者名稱</string>
+    <string name="title_pref_socks_password">本地代理密碼 (選擇)</string>
+    <string name="summary_pref_socks_password">密碼</string>
 
     <string name="title_pref_local_dns_port">本機 DNS 埠</string>
     <string name="summary_pref_local_dns_port">本機 DNS 埠</string>
@@ -298,7 +303,9 @@
     <string name="title_update_subscription_result">更新了 %1$d 個配置（%2$d 個成功，%3$d 個失敗，%4$d 個跳過）</string>
     <string name="title_update_subscription_no_subscription">無訂閱</string>
     <string name="toast_server_not_found_in_group">當前分組中未找到選中的伺服器</string>
-    <string name="toast_fragment_not_available">無法定位當前視圖</string>
+    <string name="toast_fragment_not_available">定位所選配置</string>
+    <string name="title_locate_selected_config">Locate the selected config</string>
+
     <string name="tasker_start_service">啟動服務</string>
     <string name="tasker_setting_confirm">確定</string>
 

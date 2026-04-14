@@ -112,6 +112,7 @@
     <string name="server_lab_bandwidth_up">Bandwidth up (Supported units: k/m/g/t)</string>
     <string name="server_lab_xhttp_mode">XHTTP Mode</string>
     <string name="server_lab_xhttp_extra">XHTTP Extra raw JSON, format: { XHTTPObject }</string>
+    <string name="server_lab_final_mask">finalMask raw JSON, format: { FinalMaskObject }</string>
     <string name="server_lab_ech_config_list">EchConfigList</string>
     <string name="server_lab_ech_force_query">EchForceQuery</string>
     <string name="server_lab_pinned_ca256">Certificate fingerprint (SHA-256)</string>
@@ -218,6 +219,10 @@
 
     <string name="title_pref_socks_port">Local প্রক্সি পোর্ট</string>
     <string name="summary_pref_socks_port">Local প্রক্সি পোর্ট</string>
+    <string name="title_pref_socks_username">Local proxy username (optional)</string>
+    <string name="summary_pref_socks_username">Username</string>
+    <string name="title_pref_socks_password">Local proxy password (optional)</string>
+    <string name="summary_pref_socks_password">Password</string>
 
     <string name="title_pref_local_dns_port">স্থানীয় DNS পোর্ট</string>
     <string name="summary_pref_local_dns_port">স্থানীয় DNS পোর্ট</string>
@@ -300,6 +305,8 @@
     <string name="title_update_subscription_no_subscription">No subscriptions</string>
     <string name="toast_server_not_found_in_group">Selected server not found in current group</string>
     <string name="toast_fragment_not_available">Unable to locate current view</string>
+    <string name="title_locate_selected_config">Locate the selected config</string>
+
     <string name="tasker_start_service">সার্ভিস শুরু করুন</string>
     <string name="tasker_setting_confirm">নিশ্চিত করুন</string>
 

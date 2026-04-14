@@ -112,6 +112,7 @@
     <string name="server_lab_bandwidth_up">Исходящая пропускная способность (допускаются: k/m/g/t)</string>
     <string name="server_lab_xhttp_mode">Режим XHTTP</string>
     <string name="server_lab_xhttp_extra">Необработанный JSON XHTTP Extra, формат: { XHTTPObject }</string>
+    <string name="server_lab_final_mask">finalMask raw JSON, format: { FinalMaskObject }</string>
     <string name="server_lab_ech_config_list">EchConfigList</string>
     <string name="server_lab_ech_force_query">EchForceQuery</string>
     <string name="server_lab_pinned_ca256">Отпечаток сертификата (SHA-256)</string>
@@ -217,6 +218,10 @@
 
     <string name="title_pref_socks_port">Порт локального прокси</string>
     <string name="summary_pref_socks_port">Порт локального прокси</string>
+    <string name="title_pref_socks_username">Имя пользователя локального прокси (опционально)</string>
+    <string name="summary_pref_socks_username">Имя пользователя</string>
+    <string name="title_pref_socks_password">Пароль локального прокси (опционально)</string>
+    <string name="summary_pref_socks_password">Пароль</string>
 
     <string name="title_pref_local_dns_port">Порт локальной DNS</string>
     <string name="summary_pref_local_dns_port">Порт локальной DNS</string>
@@ -299,6 +304,7 @@
     <string name="title_update_subscription_no_subscription">Нет подписок</string>
     <string name="toast_server_not_found_in_group">Выбранный профиль не найден в текущей группе</string>
     <string name="toast_fragment_not_available">Фрагмент недоступен</string>
+    <string name="title_locate_selected_config">Найти выбранный профиль</string>
 
     <string name="tasker_start_service">Запуск службы</string>
     <string name="tasker_setting_confirm">Подтвердить</string>

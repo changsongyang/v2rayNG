@@ -112,6 +112,7 @@
     <string name="server_lab_bandwidth_up">افزایش پهنای باند (واحد)</string>
     <string name="server_lab_xhttp_mode">حالت XHTTP</string>
     <string name="server_lab_xhttp_extra">خام JSON XHTTP Extra، قالب: { XHTTPObject }</string>
+    <string name="server_lab_final_mask">finalMask raw JSON, format: { FinalMaskObject }</string>
     <string name="server_lab_ech_config_list">لیست کانفیگ Ech</string>
     <string name="server_lab_ech_force_query">EchForceQuery</string>
     <string name="server_lab_pinned_ca256">Certificate fingerprint (SHA-256)</string>
@@ -216,6 +217,10 @@
 
     <string name="title_pref_socks_port">پورت پروکسی محلی</string>
     <string name="summary_pref_socks_port">پورت پروکسی محلی</string>
+    <string name="title_pref_socks_username">Local proxy username (optional)</string>
+    <string name="summary_pref_socks_username">Username</string>
+    <string name="title_pref_socks_password">Local proxy password (optional)</string>
+    <string name="summary_pref_socks_password">Password</string>
 
     <string name="title_pref_local_dns_port">پورت DNS محلی</string>
     <string name="summary_pref_local_dns_port">پورت DNS محلی</string>
@@ -298,6 +303,8 @@
     <string name="title_update_subscription_no_subscription">No subscriptions</string>
     <string name="toast_server_not_found_in_group">Selected server not found in current group</string>
     <string name="toast_fragment_not_available">Unable to locate current view</string>
+    <string name="title_locate_selected_config">Locate the selected config</string>
+
     <string name="tasker_start_service">شروع خدمات</string>
     <string name="tasker_setting_confirm">تایید</string>
 

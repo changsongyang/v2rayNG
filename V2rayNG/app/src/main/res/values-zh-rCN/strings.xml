@@ -112,6 +112,7 @@
     <string name="server_lab_bandwidth_up">带宽上行 (支持的单位 k/m/g/t)</string>
     <string name="server_lab_xhttp_mode">XHTTP 模式</string>
     <string name="server_lab_xhttp_extra">XHTTP Extra 原始 JSON，格式： { XHTTPObject }</string>
+    <string name="server_lab_final_mask">FinalMask 原始 JSON 格式: { FinalMaskObject }</string>
     <string name="server_lab_ech_config_list">EchConfigList</string>
     <string name="server_lab_ech_force_query">EchForceQuery</string>
     <string name="server_lab_pinned_ca256">证书指纹 (SHA-256)</string>
@@ -213,10 +214,14 @@
     <string name="title_pref_allow_insecure">跳过证书验证 (allowInsecure)</string>
     <string name="summary_pref_allow_insecure">传输层安全选 tls 时，默认跳过证书验证 (allowInsecure)</string>
 
-    <string name="title_pref_socks_port">本地代理端口</string>
-    <string name="summary_pref_socks_port">本地代理端口</string>
+     <string name="title_pref_socks_port">本地代理端口</string>
+     <string name="summary_pref_socks_port">本地代理端口</string>
+     <string name="title_pref_socks_username">本地代理用户名 (可选)</string>
+     <string name="summary_pref_socks_username">用户名</string>
+     <string name="title_pref_socks_password">本地代理密码 (可选)</string>
+     <string name="summary_pref_socks_password">密码</string>
 
-    <string name="title_pref_local_dns_port">本地 DNS 端口</string>
+     <string name="title_pref_local_dns_port">本地 DNS 端口</string>
     <string name="summary_pref_local_dns_port">本地 DNS 端口</string>
 
     <string name="title_pref_confirm_remove">删除配置确认</string>
@@ -299,6 +304,8 @@
     <string name="title_update_subscription_no_subscription">无订阅</string>
     <string name="toast_server_not_found_in_group">当前分组中未找到选中的服务器</string>
     <string name="toast_fragment_not_available">无法定位当前视图</string>
+    <string name="title_locate_selected_config">定位所选配置</string>
+
     <string name="tasker_start_service">启动服务</string>
     <string name="tasker_setting_confirm">确定</string>
 

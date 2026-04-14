@@ -112,6 +112,7 @@
     <string name="server_lab_bandwidth_up">وا روء رئڌن پئنا باند (واهڌ)</string>
     <string name="server_lab_xhttp_mode">هالت XHTTP</string>
     <string name="server_lab_xhttp_extra">XHTTP Extra خام JSON، قالوو: { XHTTPObject }</string>
+    <string name="server_lab_final_mask">finalMask raw JSON, format: { FinalMaskObject }</string>
     <string name="server_lab_ech_config_list">نومگه کانفیگ Ech</string>
     <string name="server_lab_ech_force_query">پورس وو جۊ اجباری Ech</string>
     <string name="server_lab_pinned_ca256">Certificate fingerprint (SHA-256)</string>
@@ -301,6 +302,8 @@
     <string name="title_update_subscription_no_subscription">بؽ اشتراک</string>
     <string name="toast_server_not_found_in_group">Selected server not found in current group</string>
     <string name="toast_fragment_not_available">Unable to locate current view</string>
+    <string name="title_locate_selected_config">Locate the selected config</string>
+
     <string name="tasker_start_service">ره وندن خدمات</string>
     <string name="tasker_setting_confirm">قوۊل</string>
 
